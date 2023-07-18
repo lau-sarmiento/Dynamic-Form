@@ -1,31 +1,31 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./Services.css";
-import imgCourse1 from "../../assets/img/hbo.jpeg";
-import imgCourse2 from "../../assets/img/netflix.jpeg";
-import imgCourse3 from "../../assets/img/prime.jpeg";
-/** Importar Imagenes (Copiar y pegar) */
+import imgCourse1 from "../../assets/img/youtube.jpeg";
+import imgCourse2 from "../../assets/img/spotify.jpeg";
+import imgCourse3 from "../../assets/img/deezer.jpeg";
+
 import CardService from "./CardService/CardService";
 
 export default function Services() {
-    /** Lo que contiene cada uno de los servicios, array de cada uno de estos */
+    
     const servicesArray = [
         {
-            title: "Wordpress Course",
-            subtitle: "Lear all about this great CMS",
+            title: "Video Clips Course",
+            subtitle: "Se creo en Estados Unidos durante Febrero de 2005",
             image: imgCourse1,
             footer: "Go to the course ➡️",
             link: "#!",
         },
         {
-            title: "Prestashop Course",
-            subtitle: "Lear all about this great CMS",
+            title: "Playlist Course",
+            subtitle: "Se creo en Estocolmo durante abril de 2006",
             image: imgCourse2,
             footer: "Go to the course ➡️",
             link: "#!",
         },
         {
-            title: "React Course",
-            subtitle: "Lear all about this great CMS",
+            title: "Streaming Course",
+            subtitle: "Se creó en Francia durante junio de 2006",
             image: imgCourse3,
             footer: "Go to the course ➡️",
             link: "#!",

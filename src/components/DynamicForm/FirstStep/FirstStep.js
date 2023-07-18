@@ -22,7 +22,29 @@ export const fruits = [
         name:"Banana",
         description:"Some quick example to build on the card title and make uo the bulk of the card's content",
     },
-    /** Agregar mas opciones con el mismo formato (copiar y pegar) */
+
+    {
+        id:4,
+        icon:"",
+        name:"Pear",
+        description:"Some quick example to build on the card title and make uo the bulk of the card's content",
+    },
+
+    {
+        id:5,
+        icon:"",
+        name:"Apple",
+        description:"Some quick example to build on the card title and make uo the bulk of the card's content",
+    },
+
+    {
+        id:6,
+        icon:"",
+        name:"Strawberry",
+        description:"Some quick example to build on the card title and make uo the bulk of the card's content",
+    },
+    
+
 ];
 
 export default function FirstStep() {
@@ -36,9 +58,9 @@ export default function FirstStep() {
 
 
     return(
-        /** Cambiar titulo (h2) */
+     
         <div>
-            <h2>Choose your favorite fruit</h2>
+            <h2>What is your favorite fruit</h2>
             <h4>Select your fruit and then click the button of "Next Step"</h4>
             <Container className="p-5 text-center">
                 <Row>
